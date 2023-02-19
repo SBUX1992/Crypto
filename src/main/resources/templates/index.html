@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Crypto</title>
+	</head>
+	<body>
+		<h3>Crypto !!!</h3>
+		<form>
+			<table border="1">
+				<strong>입력</strong>
+				<tr>
+					<th>거래소</th>
+					<th>매수일</th>
+					<th>티커</th>
+					<th>수량</th>
+					<th>평균매수가</th>		<!-- 매수총액 / 수량 -->
+					<th>기타</th>
+				</tr>
+				<tr>
+					<td>
+						<select>
+							<option value="#">거래소 선택</option>
+							<option value="">바이낸스</option>
+							<option value="">업비트</option>
+							<option value="">기타</option>
+						</select>
+					</td>
+					<td><input type="text" placeholder="오늘"></td>
+					<td><input type="text" placeholder="btc"></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+					<td>
+						<button>매수</button>
+						<!-- <button>추가매수</button> -->
+					</td>
+				</tr>
+			</table>
+			<br>
+			<br>
+			<table border="1">
+				<strong>매수중</strong>
+				<tr>
+					<th>거래소</th>
+					<th>매수일</th>
+					<th>매도일</th>
+					<th>티커</th>
+					<th>수량</th>
+					<th>평균매수가</th>		<!-- 매수총액 / 수량 -->
+					<th>평균매도가</th>
+					<th>수익률</th>
+					<th>매수총액</th>
+					<th>매도총액</th>
+					<th>수익금</th>
+					<th>기타</th>
+				</tr>
+				<tr>
+					<td>바이낸스</td>
+					<td>2023-02-16</td>
+					<td>2023-02-16</td>
+					<td>GRT</td>
+					<td>0.1750</td>
+					<td>12,498</td>
+					<td>0.3</td>
+					<td>71.43%</td>
+					<td>2,187</td>
+					<td>3,749</td>
+					<td>1,562</td>
+					<td>
+						<button>수정</button>
+						<button>매도</button>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<br>
+			<table border="1">
+				<strong>매도완료</strong>
+				<tr>
+					<th>거래소</th>
+					<th>매수일</th>
+					<th>매도일</th>
+					<th>티커</th>
+					<th>수량</th>
+					<th>평균매수가</th>		<!-- 매수총액 / 수량 -->
+					<th>평균매도가</th>
+					<th>수익률</th>
+					<th>매수총액</th>
+					<th>매도총액</th>
+					<th>수익금</th>
+					<th>기타</th>
+				</tr>
+				<tr>
+					<td>바이낸스</td>
+					<td>2023-02-16</td>
+					<td>GRT</td>
+					<td>0.1750</td>
+					<td>12,498</td>
+					<td>0.3</td>
+					<td>71.43%</td>
+					<td>2,187</td>
+					<td>3,749</td>
+					<td>1,562</td>
+					<td><button>수정</button></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
